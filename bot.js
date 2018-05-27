@@ -10,5 +10,8 @@ client.on('message', message => {
         message.reply('pong');
       }
 });
+
+الكواد هنا
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
