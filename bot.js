@@ -11,6 +11,8 @@ client.on('message', message => {
       }
 });
 
+
+
 client.on('message', message => {
     if (message.content == "$فكك") {    
         var x = ['ضفدع', 'طيارة', 'رعودي', 'تفكيك', 'تجربة', 'مدرسة', 'معلم' , 'نقاط'];
@@ -116,6 +118,7 @@ client.on('message', message => {
     fs.writeFile('point.json', JSON.stringify(points), (err) => {
         if (err) console.error(err);
     });
+
 
 
 // THIS  MUST  BE  THIS  WAY
