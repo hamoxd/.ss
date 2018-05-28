@@ -37,7 +37,6 @@ client.on('message', message => {
     msg.react('✅')
     .then(() => msg.react('❌'))
     .then(() =>msg.react('✅'))
-
     let reaction1Filter = (reaction, user) => reaction.emoji.name === '✅' && user.id === message.author.id;
     let reaction2Filter = (reaction, user) => reaction.emoji.name === '❌' && user.id === message.author.id;
  let reaction1 = msg.createReactionCollector(reaction1Filter, { time: 12000 });
