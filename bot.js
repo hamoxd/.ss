@@ -16,8 +16,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" Done | تــــم" , " |  تــــم ارســالك في الخــاص")
-
+  .addField(" Done | تــــم" , " |تم ارسال ارابط خاص")
 
 
  client.on('message', message => {
