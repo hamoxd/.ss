@@ -10,25 +10,5 @@ client.on('message', message => {
         message.reply('pong');
       }
 });
-
-client.on('message', message => {
-     if (message.content === "رابط") {
-     let embed = new Discord.RichEmbed()
-  .setAuthor(message.author.username)
-  .setColor("#9B59B6")
-  .addField(" Done | تــــم" , " |تم ارسال ارابط خاص")
-
-
- client.on('message', message => {
-     if (message.content === "رابط") {
-message.author.send("***WELCOME TO ZOMBIE***" + `  **
-
-https://discord.gg/2UJV6Hp
-
-**`);
-    }
-});          
-
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
